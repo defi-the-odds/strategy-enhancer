@@ -9,8 +9,8 @@
 const axios = require('axios');
 const ticker = 'ETH-USD';
 // CHANGE THIS TO THE STRATEGY YOU WANT TO USE
-// const strategy = require('./strategies/base');
-const strategy = require('./strategies/base_with_defiTheOdds');
+const strategy = require('./strategies/base');
+// const strategy = require('./strategies/base_with_defiTheOdds');
 
 const INITIAL_CAPITAL = 10000;
 const RISK_FREE_RATE = 0;
